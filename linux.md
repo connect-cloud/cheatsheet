@@ -9,3 +9,7 @@ adduser <username>
 ```
 usermod -aG <group e.g. sudo> <username>
 ```
+## Delete user
+```
+deluser --remove-home <username>
+```
