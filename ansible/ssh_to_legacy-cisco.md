@@ -6,3 +6,7 @@ KexAlgorithms +diffie-hellman-group14-sha1
 PubkeyAcceptedAlgorithms +ssh-rsa #optional
 HostkeyAlgorithms +ssh-rsa
 ```
+## Add the following lines to known hosts file
+``` 
+
+```
