@@ -8,5 +8,5 @@ HostkeyAlgorithms +ssh-rsa
 ```
 ## Add the following lines to known hosts file
 ``` 
-
++diffie-hellman-group14-sha1
 ```
