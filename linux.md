@@ -13,3 +13,8 @@ usermod -aG <group e.g. sudo> <username>
 ```
 deluser --remove-home <username>
 ```
+
+## SCP
+```
+scp .\localfile bart@a.b.x.d:/home/bart
+```
