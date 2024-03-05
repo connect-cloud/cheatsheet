@@ -4,3 +4,5 @@
 ```
  ansible-playbook <playbook>.yaml -u <username> --ask-pass -K -i <inventory file>
 ```
+
+ansible -m
