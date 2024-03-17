@@ -18,3 +18,9 @@ deluser --remove-home <username>
 ```
 scp .\localfile bart@a.b.x.d:/home/bart
 ```
+
+## Linux distro
+```
+hostnamectl
+cat /etc/*-release
+```
