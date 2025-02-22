@@ -18,3 +18,15 @@ Execute in an elevated PowerShell window
 ```
 Start-Process -NoNewWindow msiexec.exe  -ArgumentList "/i <full path to msi installer> ADDLOCAL=Client ADD_PATH=1" -Wait
 ```
+
+
+## List and add keys to SSH agent
+List Keys
+```
+ssh-add -L
+```
+
+Add Keys:
+```
+ssh-add $env:USERPROFILE\.ssh\<keyfile>
+```
